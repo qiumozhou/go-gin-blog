@@ -1,2 +1,4 @@
 [INFO][article.go:122]2023/09/20 11:47:20 [err.key: %s, err.message: %s state 状态只允许0或1]
 [INFO][article.go:122]2023/09/20 11:47:53 [err.key: %s, err.message: %s state 状态只允许0或1]
+[INFO][article.go:122]2023/09/20 14:01:25 [err.key: %s, err.message: %s state 状态只允许0或1]
+[INFO][article.go:122]2023/09/20 14:01:26 [err.key: %s, err.message: %s state 状态只允许0或1]
