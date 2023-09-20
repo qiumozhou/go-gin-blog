@@ -1,13 +1,13 @@
 package v1
 
 import (
-	"log"
 	"net/http"
 
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 	"github.com/qmz/go-gin-blog/models"
 	"github.com/qmz/go-gin-blog/pkg/e"
+	"github.com/qmz/go-gin-blog/pkg/logging"
 	"github.com/qmz/go-gin-blog/pkg/util"
 )
 
@@ -43,7 +43,7 @@ func GetAuth(c *gin.Context) {
 		}
 	} else {
 		for _, err := range valid.Errors {
-            log.Println(err.Key, err.Message)
+            logging.Info(err.Key, err.Message)
         }
 	}
 
